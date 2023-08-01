@@ -1,0 +1,16 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 300,
+      "height": 600
+    },
+    "entry": {
+      "html": "./index.hbs"
+    }
+  },
+  "content": {
+    "custom": "./css/style.css",
+    "subtitle":"<span class='copy2A'>Comprá tu</span><span class='copy2B'>preferido en</span>"
+  }
+}

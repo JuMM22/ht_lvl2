@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="ad.size" content="width={{settings.size.width}},height={{settings.size.height}}">
+
+  <title>{{settings.size.width}}x{{settings.size.height}}</title>
+
+  <link rel="stylesheet" href="{{content.css}}" type="text/css">
+  <link rel="stylesheet" href="{{content.custom}}" type="text/css">
+
+  <script type="text/javascript">
+    var clickTag = "{{content.clickTag}}";
+  </script>
+</head>
+
+<body>
+<div class="banner border">
+  <div class="content fullscreen">
+
+    <img id="bgImage" class="bg_image_{{content.version}} PA" src="{{content.bgImage}}">
+    <div id="shadow" class="shadow PA"></div>
+
+    <div class="title_container PA">
+      <div id="title" class="title_{{content.version}} copy PA">
+        {{{content.title}}}
+      </div>
+    </div>
+    <img id="logo" class="logo_{{content.version}} PA" src="{{content.logo}}">
+
+    <svg class="vector_base PA" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 300 250" style="enable-background:new 0 0 300 250;" xml:space="preserve">
+
+      <path id="baseWhite" class="vector_base_white" style="fill:#FFFFFF;" d="M307.9,154.5c-9.5,9.5-76.7,16.9-158.3,16.9C68,171.3,0.8,164-8.7,154.5
+        c-0.8,0.8-1.1,483.9-1.1,484.7c0,10.6,71.4,19.2,159.4,19.2c88,0,159.4-8.6,159.4-19.2C309,638.4,308.6,155.2,307.9,154.5z"/>
+
+      <path id="baseViolet" class="vector_base_violet" style="fill:#746DAC;" d="M-4,163.3v467.4c34.8,5.6,90.6,9.3,153.6,9.3c63.4,0,119.6-3.7,154.3-9.4V163.2
+        c-34.6,9.5-90.9,13.8-154.3,13.8C86.6,177,29.5,173.4-4,163.3z"/>
+    </svg>
+
+    <div id="subtitle" class="subtitle_container copy PA">
+      <img id="subLogo" class="sublogo_{{content.version}} PA" src="{{content.logo}}">
+      <span>{{{content.subtitle}}}</span>
+    </div>
+    
+    <div class="partner_logo_holder PA">
+      <img id="partnerLogo" class="partner_logo {{content.partner}} PA" src="{{content.partnerLogo}}">
+    </div>
+
+    <span id="legal" class="legal copy PA">{{{content.legal}}}</span>
+    
+  </div>
+  <div class="mainExit fullscreen"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</body>
+</html>

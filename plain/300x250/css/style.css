@@ -1,0 +1,137 @@
+.bg_image_c1 {
+  left: 0;
+  top: -105px;
+  width: 100%;
+}
+
+.bg_image_c2 {
+  left: 0px;
+  top: -158px;
+  width: 101%;
+}
+
+.shadow {
+  width: 300px;
+  height: 250px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 55, 133, 0) 100%);
+}
+
+.vector_base {
+  left: 0;
+  top: 0;
+}
+
+.title_container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: cooperm;
+  font-size: 22.3px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_c1 {
+  margin-left: -4px;
+  margin-top: 13px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  text-indent: -63px;
+}
+
+.title_c2 {
+  margin-left: -70px;
+  margin-top: 17px;
+  letter-spacing: -0.1px;
+  line-height: 18px;
+  text-indent: 67px;
+  font-size: 21px;
+}
+
+.qMark {
+  left: 149px;
+}
+
+.mainExit {
+  cursor: pointer;
+}
+
+.logo_c1 {
+  height: 34px;
+  left: 197px;
+  top: 98px;
+  width: 68px;
+}
+
+.logo_c2 {
+  left: 150px;
+  top: 132px;
+  width: 61px;
+}
+
+.partner_logo_holder {
+  left: 0;
+  bottom: 14px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner_logo {
+  max-width: 18%;
+}
+
+.logo_subtitle {
+  bottom: 46px;
+  right: 130px;
+  width: 52px;
+}
+
+.subtitle_container {
+  bottom: 44px;
+  left: 0px;
+  width: 100%;
+  height: 28px;
+  font-family: cooperm;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  letter-spacing: .2px;
+}
+
+.legal {
+  bottom: 3px;
+  left: 0;
+  width: 100%;
+  font-size: 6px;
+  color: white;
+  text-align: center;
+}
+
+.sublogo_c1 {
+  width: 53px;
+  position: absolute;
+  left: 118px;
+}
+
+.sublogo_c2 {
+  width: 52px;
+  left: 118px;
+}
+
+.copy2A {
+  left: 27px;
+  position: absolute;
+}
+
+.copy2B {
+  left: 172px;
+  position: absolute;
+}

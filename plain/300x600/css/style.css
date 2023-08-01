@@ -1,0 +1,140 @@
+.bg_image_c1 {
+  left: -14px;
+  top: -49px;
+  width: 113%;
+}
+
+.bg_image_c2 {
+  left: -28px;
+  top: -161px;
+  width: 126%;
+}
+
+.shadow {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 55, 133, 0) 100%);
+  bottom: 68px;
+}
+
+.vector_base {
+  left: 0;
+  bottom: 0;
+}
+
+.title_container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: cooperm;
+  font-size: 22.3px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_c1 {
+  margin-left: -4px;
+  margin-top: 159px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  text-indent: -70px;
+  font-size: 23px;
+}
+
+.title_c2 {
+  margin-left: -92px;
+  margin-top: 134px;
+  letter-spacing: -0.1px;
+  line-height: 23px;
+  text-indent: 86px;
+  font-size: 26px;
+}
+
+.qMark {
+  left: 189px;
+}
+
+.logo_c1 {
+  height: 34px;
+  left: 197px;
+  top: 345px;
+  width: 68px;
+}
+
+.logo_c2 {
+  height: 34px;
+  left: 150px;
+  top: 367px;
+  width: 78px;
+}
+
+.partner_logo_holder {
+  left: 0;
+  bottom: 100px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner_logo {
+  max-width: 23%;
+}
+
+.carrefour, .pmarket, .masonline {
+  max-width: 25%;
+}
+
+
+.logo_subtitle {
+  bottom: 46px;
+  right: 130px;
+  width: 52px;
+}
+
+.subtitle_container {
+  bottom: 139px;
+  left: 0px;
+  width: 100%;
+  height: 28px;
+  font-family: cooperm;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  letter-spacing: .2px;
+}
+
+.legal {
+  bottom: 83px;
+  left: 0;
+  width: 100%;
+  font-size: 6px;
+  color: white;
+  text-align: center;
+}
+
+.sublogo_c1 {
+  width: 53px;
+  position: absolute;
+  left: 118px;
+}
+
+.sublogo_c2 {
+  width: 52px;
+  left: 118px;
+}
+
+.copy2A {
+  left: 27px;
+  position: absolute;
+}
+
+.copy2B {
+  left: 172px;
+  position: absolute;
+}
